@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 1500px;
+}
+
+.logo,
+.search-box,
+.nav-item {
+  padding: 10px;
+  vertical-align: middle;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.search-box input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+.nav-item img,
+.nav-item i,
+.search-box i {
+  vertical-align: middle;
+}
+.search-img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.header-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.catagories {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 15px 0;
+  margin-top: 1rem;
+}
+.catagory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.catagory img {
+  width: 65px;
+  height: 65px;
+}
+.catagory .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.catagory .text span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.catagory .text i {
+  font-size: 16px;
+}
